@@ -266,7 +266,7 @@ def api2(ids,names,passlist):
             fbav = f'{random.randint(111,999)}.0.0.{random.randint(11,99)}.{random.randint(111,999)}'
             fbbv = str(random.randint(000000000,999999999))
             accees_token = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
-            uaddx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/364.0.0.24.132;FBBV/366458633;FBDM/{density=2.625,width=1080,height=2133};FBLC/en_US;FBRV/0;FBCR/Verizon ;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-S901U;FBSV/12;FBOP/1;FBCA/arm64-v8a:;]'
+            uaddx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/465.0.0.60.83;FBBV/452016700;[FBAN/FB4A;FBAV/465.0.0.60.83;FBPN/com.facebook.katana;FBLC/en_US;FBBV/452016700;FBCR/Xfinity Mobile;FBMF/Lenovo;FBBD/lenovo;FBDV/K5 Pro;FBSV/14.5.0;FBCA/x86_64:arm64-v8a:armeabi-v7a;FBDM/{density=2.375,width=1296,height=2399};FB_FW/1;FBRV/452481777;]'
             head = {'User-Agent':uaddx,
             'Accept-Encoding':'gzip, deflate',
             'Connection':'close',
